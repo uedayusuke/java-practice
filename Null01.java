@@ -8,13 +8,18 @@ public class Null01 {
 		string1 = "";
 		System.out.println(string1 + "の文字数:" + string1.length());
 
-		string1 = null;
-		System.out.println(string1 + "の文字数:" + string1.length());
+		// string1 = null;
+		// System.out.println(string1 + "の文字数:" + string1.length());
 
 		Integer integer1 = 5;
 		Integer integer2 = Integer.valueOf(5);
+		System.out.println(integer1);
+		System.out.println(integer2);
+
 		int int1 = integer1;
 		int int2 = integer2.intValue();
+		System.out.println(int1);
+		System.out.println(int2);
 
 		int[] array1 = new int[3];
 		array1[0] = 60;
@@ -26,6 +31,8 @@ public class Null01 {
 
 		int[] array3 = new int[] { 10, 20, 50 };
 		int[] array4 = { 10, 20, 50};
+
+		System.out.println(array3[1]);
 
 	}
 }
