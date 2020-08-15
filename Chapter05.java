@@ -33,6 +33,22 @@ public class Chapter05 {
 		char1 = 'う';
 		System.out.println(char1);
 
+		// 配列
+		// 要素数が5の「int」配列に値を代入して、インデックス番号が3の値を出力
+		int[] array = new int[5];
+		array[0] = 0;
+		array[1] = 1;
+		array[2] = 2;
+		array[3] = 3;
+		array[4] = 4;
+		System.out.println(array[3]);
+
+		int[] array2 = new int[] { 5, 6, 7, 8, 9, 10 };
+		System.out.println(array2[3]);
+
+		int[] array3 = { 11, 12, 13, 14, 15 };
+		System.out.println(array3[3]);
+
 
 	}
 }
