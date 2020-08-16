@@ -22,6 +22,28 @@ public class training06 {
 		c = a % 4;
 		System.out.println(c);
 
+		// インクリメント・デクリメント演算子
+		a = 10;
+		a++;
+		System.out.println(a);
+		a = 10;
+		a--;
+		System.out.println(a);
+
+		// 前置と後置
+		int b;
+		int d;
+
+		b = 5;
+		d = ++b;
+		System.out.println(b);
+		System.out.println(d);
+
+		b = 5;
+		d = b++;
+		System.out.println(b);
+		System.out.println(d);
+
 
 	}
 }
