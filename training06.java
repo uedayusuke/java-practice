@@ -44,6 +44,26 @@ public class training06 {
 		System.out.println(b);
 		System.out.println(d);
 
+		// 代入演算子
+		int e;
+		// 代入
+		e = 10;
+		System.out.println(e);
+		//加算代入
+		e += 5;
+		System.out.println(e);
+		// 減算代入
+		e -= 3;
+		System.out.println(e);
+		// 乗算代入
+		e *= 4;
+		System.out.println(e);
+		// 除算代入
+		e /= 2;
+		System.out.println(e);
+		// 剰余算代入
+		e %= 7;
+		System.out.println(e);
 
 	}
 }
