@@ -112,6 +112,15 @@ public class training06 {
 		j = !i;
 		System.out.println(j);
 
+		// 文字列の連結
+		String k = "100";
+		String l = "200";
+		String m;
+		m = k + l;
+		System.out.println(m);
+		m = "あ" + "い";
+		System.out.println(m);
+
 
 	}
 }
