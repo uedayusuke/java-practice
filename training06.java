@@ -121,6 +121,27 @@ public class training06 {
 		m = "あ" + "い";
 		System.out.println(m);
 
+		// 文字列の等価比較
+		k = "applePie";
+		l = "applePie";
+		j = k == l; //一般的に"=="は避ける
+		System.out.println(j);
+		// ↓中身はだけどオブジェクトが別のためfalseを返される例
+		l = "apple";
+		m = l + "Pie";
+		System.out.println(m);
+		j = k == m;
+		System.out.println(j);
+		String n = new String("applePie");
+		System.out.println(n);
+		j = k == n;
+		System.out.println(j);
+		// "equalsメソッド"を使う方がベター
+		 j = k.equals(m);
+		 System.out.println(j);
+		 j = k.equals(n);
+		 System.out.println(j);
+
 
 	}
 }
