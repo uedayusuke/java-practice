@@ -46,6 +46,7 @@ public class training06 {
 
 		// 代入演算子
 		int e;
+
 		// 代入
 		e = 10;
 		System.out.println(e);
@@ -64,6 +65,31 @@ public class training06 {
 		// 剰余算代入
 		e %= 7;
 		System.out.println(e);
+
+		// 関係（比較）演算子
+		int f = 5;
+		boolean g;
+
+		//小なり
+		g = f < 5;
+		System.out.println(g);
+		// 小なりイコール
+		g = f <= 5;
+		System.out.println(g);
+		// 大なり
+		g = f > 4;
+		System.out.println(g);
+		// 大なりイコール
+		g = f >= 6;
+		System.out.println(g);
+		// 等価
+		g = f == 6;
+		System.out.println(g);
+		// 不等価
+		g = f != 6;
+		System.out.println(g);
+
+
 
 	}
 }
