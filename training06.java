@@ -89,6 +89,28 @@ public class training06 {
 		g = f != 6;
 		System.out.println(g);
 
+		// 論理演算子
+		boolean h = true;
+		boolean i = false;
+		boolean j;
+
+		//論理積（AND）
+		j = h && true;
+		System.out.println(j);
+		j = h && false;
+		System.out.println(j);
+		j = i && false;
+		System.out.println(j);
+		// 論理和（OR）
+		j = i || true;
+		System.out.println(j);
+		j = i || false;
+		System.out.println(j);
+		// 否定（NOT）
+		j = !h;
+		System.out.println(j);
+		j = !i;
+		System.out.println(j);
 
 
 	}
