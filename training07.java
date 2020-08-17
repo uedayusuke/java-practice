@@ -24,5 +24,19 @@ public class training07 {
 		} else {
 			System.out.println(number + "は15未満ではないです");
 		}
+
+		// switch文
+		int val = 3;
+		switch (val) {
+		case 3:
+			System.out.println("よくできました！！");
+			break;
+		case 2:
+			System.out.println("まぁまぁだね！");
+			break;
+		default:
+			System.out.println("頑張ろう...");
+			break;
+		}
 	}
 }
