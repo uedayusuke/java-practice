@@ -36,5 +36,14 @@ public class training08 {
 			}
 			System.out.println("break = " + count);
 		}
+
+		// continue文
+		for (int count2 = 0; count2 < 5; count2 ++) {
+			if (count2 == 2) {
+				continue;
+			}
+			System.out.println("continue = " + count2);
+		}
+
 	}
 }
