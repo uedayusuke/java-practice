@@ -21,5 +21,12 @@ public class training08 {
 		for (int num = 1; num <= 5; num++) {
 			System.out.println("for = " + num);
 		}
+
+		// 拡張for文
+		int[] array = { 1, 2, 3, 4, 5};
+		System.out.println(array[0]);
+		for (int num2 : array) {
+			System.out.println("拡張for = " + num2);
+		}
 	}
 }
