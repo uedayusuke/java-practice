@@ -28,5 +28,13 @@ public class training08 {
 		for (int num2 : array) {
 			System.out.println("拡張for = " + num2);
 		}
+
+		// break文
+		for (int count = 0; count < 5; count ++) {
+			if (count == 4) {
+				break;
+			}
+			System.out.println("break = " + count);
+		}
 	}
 }
