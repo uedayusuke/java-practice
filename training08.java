@@ -8,5 +8,12 @@ public class training08 {
 			number *= 2;
 			System.out.println("training08 = " + number);
 		}
+
+		//do-while文
+		number = 1;
+		do {
+			number *= 2;
+			System.out.println("training08 = " + number);
+		}while (number < 50);
 	}
 }
