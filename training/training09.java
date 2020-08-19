@@ -1,3 +1,5 @@
+package training;
+import training.human.Human01;
 
 public class training09 {
 	public static void main(String[] args) {
