@@ -1,3 +1,4 @@
+// パッケージがtraining.humanと宣言
 package training.human;
 
 public class Human01 {
@@ -15,4 +16,6 @@ public class Human01 {
 		this.name = name;
 		this.age = age;
 	}
+
+
 }

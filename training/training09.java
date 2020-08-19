@@ -1,4 +1,6 @@
+// パッケージがtrainingと宣言
 package training;
+// training.human.Human01をインポート
 import training.human.Human01;
 
 public class training09 {
@@ -10,5 +12,7 @@ public class training09 {
 
 		Human01 sato = new Human01("佐藤", 25);
 		System.out.println("名前は" + sato.name + "で、年齢は" + sato.age + "です。");
+
+
 	}
 }
