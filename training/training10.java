@@ -1,5 +1,8 @@
 package training;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
 public class training10 {
 	public static void main(String[] args) {
 		// 10章【例外の基本を学ぼう】
@@ -21,7 +24,7 @@ public class training10 {
 			System.out.println("プログラム終了");
 		}
 
-		// throw文
+		/* throw文
 		try {
 			training10.division(100, 0);
 		} catch (ArithmeticException e) {
@@ -32,7 +35,15 @@ public class training10 {
 			throw e;
 		} finally {
 			System.out.println("プログラム終了");
+		} */
+
+		// throws文
+		try {
+			training10.readFile("exception.txt");
+		} catch (FileNotFoundException e) {
+			System.out.println("FileNotFoundException例外が発生");
 		}
+		System.out.println("プログラム終了");
 
 	}
 
@@ -43,5 +54,11 @@ public class training10 {
 		}
 		int result3 = a / b;
 		System.out.println("計算結果" + result3);
+	}
+
+	public static void readFile(String fileName) throws FileNotFoundException {
+		System.out.println("ファイルの読み込み開始");
+		FileReader fr = new FileReader(fileName);
+		System.out.println(fileName + "の読み込み完了");
 	}
 }
