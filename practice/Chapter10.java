@@ -1,6 +1,7 @@
 package practice;
 
 import java.sql.SQLException;
+import java.io.FileNotFoundException;
 
 public class Chapter10 {
 	public static void main(String[] args) {
@@ -25,8 +26,16 @@ public class Chapter10 {
 			System.out.println("mainメソッドは終了");
 		}
 
+		public static void validIndex(int[] array, int index) {
+			if (array.length <= index) {
+				throw new IllegalArugumentException(index + "はサイズの範囲外です");
+			}
+			System.out.println("インデックス" + index + "の要素は" + array[index] + "です");
+		}
+
 		public static void throwSQLException() throws SQLException {
 			throw new SQLException("SQLエラーです")
 		}
 	}
+
 }
