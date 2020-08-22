@@ -24,5 +24,9 @@ public class Chapter10 {
 		} finally {
 			System.out.println("mainメソッドは終了");
 		}
+
+		public static void throwSQLException() throws SQLException {
+			throw new SQLException("SQLエラーです")
+		}
 	}
 }
