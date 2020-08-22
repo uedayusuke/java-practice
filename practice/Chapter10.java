@@ -1,5 +1,7 @@
 package practice;
 
+import java.sql.SQLException;
+
 public class Chapter10 {
 	public static void main(String[] args) {
 		// 10章 確認問題
@@ -14,5 +16,13 @@ public class Chapter10 {
             e.printStackTrace();
         }
 
+		try {
+			Chapter10.throwSQLException();
+		} catch (SQLException e) {
+			System.out.println("SQLExceptionが発生しました");
+			e.printStackTrace();
+		} finally {
+			System.out.println("mainメソッドは終了");
+		}
 	}
 }
