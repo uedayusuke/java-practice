@@ -1,3 +1,4 @@
+package reviwe;
 
 public class reviwe09 {
 	// 9章【クラスとメソッドを理解しよう】 復習
