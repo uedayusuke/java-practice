@@ -1,4 +1,5 @@
-package reviwe;
+package review;
+import review.human.human01;
 
 public class reviwe09 {
 	// 9章【クラスとメソッドを理解しよう】 復習
