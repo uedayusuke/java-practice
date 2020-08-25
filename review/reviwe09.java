@@ -28,12 +28,17 @@ public class reviwe09 {
 		Human03 yoshida = new Human03();
 		System.out.println("私の名前は" + yoshida.name + "です。");
 
-		String profile = yoshida.getProfile() ;
+		String profile = yoshida.getProfile();
 		System.out.println(profile + "です。");
 
 		yoshida.greet("高橋");
 		yoshida.greet(null);
 
 		Human03 ikeziri = new Human03("池尻", 36, "フリーター");
+		System.out.println("私の名前は、" + ikeziri.name + "です。");
+		profile = ikeziri.getProfile();
+		System.out.println(profile + "です。");
+		ikeziri.greet("葵");
+		ikeziri.greet(null);
 	}
 }
