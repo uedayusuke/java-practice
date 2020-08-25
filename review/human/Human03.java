@@ -7,4 +7,11 @@ public class Human03 {
 	public int age;
 	public String profession;
 
+	// コンストラクタ(初期値)
+	public Human03() {
+		this.name = "吉田";
+		this.age = 56;
+		this.profession = "manga artist";
+	}
+
 }
