@@ -11,7 +11,7 @@ public class Human03 {
 	public Human03() {
 		this.name = "吉田";
 		this.age = 56;
-		this.profession = "manga artist";
+		this.profession = "漫画家";
 	}
 
 	// 宣言
