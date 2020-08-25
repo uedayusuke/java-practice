@@ -16,13 +16,16 @@ public class Human03 {
 
 	// 宣言
 	public String getProfile() {
+		// String型の戻り値returnを返す
 		return "年齢は" + this.age + "、職業は" + this.profession;
 	}
 
 	// 宣言
+	// 戻り値を返さない時は"void"を指定
 	public void greet(String friend) {
 		if (friend == null) {
 			System.out.println("挨拶する友達がわかりません！");
+			// returnで処理終了
 			return;
 		}
 		System.out.println(friend + "さん、こんにちは！");
