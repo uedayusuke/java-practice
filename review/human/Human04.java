@@ -17,6 +17,8 @@ public class Human04 {
 	}
 
 	static public void staticMethodPrint() {
+		// staticメソッドはインスタンス変数を使えない
+		// →nameは使えない
 		System.out.println("人の数は" + Human04.humanCount);
 	}
 
