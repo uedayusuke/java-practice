@@ -4,6 +4,8 @@ import review.human.Human02;
 import review.human.Human03;
 import review.human.human01;
 
+
+
 public class reviwe09 {
 	// 9章【クラスとメソッドを理解しよう】 復習
 	// クラス
@@ -40,5 +42,7 @@ public class reviwe09 {
 		System.out.println(profile + "です。");
 		ikeziri.greet("葵");
 		ikeziri.greet(null);
+
+	// 修飾子
 	}
 }
