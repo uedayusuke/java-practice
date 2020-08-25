@@ -7,11 +7,17 @@ public class Human03 {
 	public int age;
 	public String profession;
 
-	// コンストラクタ(初期値)
+	// コンストラクタ（初期値）
 	public Human03() {
-		this.name = "吉田";
-		this.age = 56;
-		this.profession = "漫画家";
+		name = "吉田";
+		age = 56;
+		profession = "漫画家";
+	}
+	// コンストラクタ(代入)
+	public Human03(String name, int age, String profession) {
+		this.name = name;
+		this.age = age;
+		this.profession = profession;
 	}
 
 	// 宣言

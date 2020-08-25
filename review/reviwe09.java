@@ -33,5 +33,7 @@ public class reviwe09 {
 
 		yoshida.greet("高橋");
 		yoshida.greet(null);
+
+		Human03 ikeziri = new Human03("池尻", 36, "フリーター");
 	}
 }
