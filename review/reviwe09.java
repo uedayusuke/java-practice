@@ -2,9 +2,8 @@ package review;
 
 import review.human.Human02;
 import review.human.Human03;
+import review.human.Human04;
 import review.human.human01;
-
-
 
 public class reviwe09 {
 	// 9章【クラスとメソッドを理解しよう】 復習
@@ -44,5 +43,16 @@ public class reviwe09 {
 		ikeziri.greet(null);
 
 	// 修飾子
+		Human04 takahashi = new Human04("高橋");
+		Human04 umezu = new Human04("楳図");
+		Human04 ueda = new Human04("上田");
+
+		Human04.staticMethodPrint();
+		System.out.println(Human04.humanCount);
+
+		System.out.println(Human04.GREETING);
+
+		takahashi.instanceMethodPrint();
+		System.out.println(takahashi.name);
 	}
 }
