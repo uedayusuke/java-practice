@@ -17,6 +17,11 @@ public class Car {
 	}
 
 	public void move(int km) {
+		// 距離の出力
 		System.out.println(km + "km走ります");
+		// 残量を計算
+		this.fuelAmount -= (km/fuelCost);
+		System.out.println(fuelAmount);
 	}
+
 }
