@@ -24,4 +24,7 @@ public class Car {
 		System.out.println(fuelAmount);
 	}
 
+	public double getFuelAmount() {
+		return this.fuelAmount;
+	}
 }
