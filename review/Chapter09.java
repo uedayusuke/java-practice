@@ -5,7 +5,7 @@ public class Chapter09 {
 	// 確認問題
 	public static void main(String[] args) {
 		// 燃料（Km/L）
-		double fuelCost = 12.5;
+		double fuelCost = 17.6;
 		// 残量（L）
 		double fuelAmount = 55.0;
 
