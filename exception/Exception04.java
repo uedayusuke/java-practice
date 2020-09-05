@@ -7,7 +7,12 @@ public class Exception04 {
 	// 10章【例外の基本を学ぼう】復習
 	// throw文
 	public static void main(String[] args) {
-
+		try {
+			Exception04.readFile("exception.txt");
+		} catch (FileNotFoundException e) {
+			System.out.println("FileNotFoundException例外が発生");
+		}
+		System.out.println("プログラム終了");
 	}
 
 	public static void readFile(String fileName) throws FileNotFoundException {
