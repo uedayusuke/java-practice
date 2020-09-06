@@ -20,10 +20,13 @@ public class Chapter10 {
         // ・throwSQLExceptionメソッドを呼び出し
         // ・SQLExceptionをキャッチして、メッセージとスタックトレースを出力
         // ・"throwSQLExceptionの呼び出し終了"のメッセージを出力
+
 		try {
+			// 例外が起こりそうな箇所
 			Chapter10.throwSQLException();
 		} catch (SQLException e) {
 			System.out.println("SQLExceptionが発生しました");
+			// スタックトレースを出力
 			e.printStackTrace();
 		} finally {
 			System.out.println("throwSQLException呼び出し終了");
