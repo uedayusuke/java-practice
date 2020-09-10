@@ -26,6 +26,14 @@ public class HumanCapsule {
 		return this.name;
 	}
 
+	/*
+	setterメソッド
+	public void setフィールド名(フィールドの型 引数) {
+		this.フィールド名 = フィールドの型の引数;
+	}
+	 */
+	// nameのsetterメソッド
+	// →値の変更が可能になる
 	public void setName(String name) {
 		this.name = name;
 	}
