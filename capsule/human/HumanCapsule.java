@@ -14,6 +14,14 @@ public class HumanCapsule {
 		this.age = age;
 	}
 
+	/*
+	getterメソッド
+	public 戻り値の型(フィールドの型) getフィールド名() {
+		return this.フィールド名
+	}
+	 */
+	// nameのsetterメソッド
+	// →値の取得が可能になる
 	public String getName() {
 		return this.name;
 	}
