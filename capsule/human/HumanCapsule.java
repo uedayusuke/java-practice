@@ -38,6 +38,8 @@ public class HumanCapsule {
 		this.name = name;
 	}
 
+	// ageのgetterメソッド
+	// 年齢は変更しないのでsetterメソッドは作らない
 	public int getAge() {
 		return this.age;
 	}
