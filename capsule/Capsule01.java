@@ -6,11 +6,14 @@ import capsule.human.HumanNoCapsule;
 public class Capsule01 {
 	// 12章【カプセル化を理解しよう】
 	public static void main(String[] args) {
+		// "HumanNoCapsule"はアクセス修飾子がpublicのため参照が可能
 		HumanNoCapsule human1 = new HumanNoCapsule("田中", 28);
 		human1.name = "今田";
 		human1.age = 70;
 		System.out.println("名前は" + human1.name + "、年齢は" + human1.age + "です。");
 
+		// "HumanCapsule"はアクセス修飾子がprivateのため参照不可
+		// →gettteメソッドで値を受け取り、setterメソッドで値を変更する
 		HumanCapsule human2 = new HumanCapsule("小林", 32);
 		System.out.println("名前は" + human2.getName() + "、年齢は" + human2.getAge() + "です。");
 		human2.setName("佐々木");
