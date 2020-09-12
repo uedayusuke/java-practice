@@ -9,4 +9,8 @@ public class CapsuleMan {
 		this.name = name;
 		this.age = age;
 	}
+	// nameのgetterメソッド
+	public String getName() {
+		return this.name;
+	}
 }
