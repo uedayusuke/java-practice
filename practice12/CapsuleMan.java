@@ -13,4 +13,9 @@ public class CapsuleMan {
 	public String getName() {
 		return this.name;
 	}
+
+	// ageのgetterメソッド
+	public int getAge() {
+		return this.age;
+	}
 }
