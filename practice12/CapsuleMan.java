@@ -18,4 +18,9 @@ public class CapsuleMan {
 	public int getAge() {
 		return this.age;
 	}
+
+	// ageのsetterメソッド
+	public void setAge(int age) {
+		this.age = age;
+	}
 }
