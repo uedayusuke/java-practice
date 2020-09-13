@@ -16,5 +16,6 @@ public abstract class Animal {
 		System.out.println(name + "が食事をしました。");
 	}
 
+	// 抽象メソッド
 	public abstract void cry();
 }
