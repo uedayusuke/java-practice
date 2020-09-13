@@ -1,5 +1,6 @@
 package extend.human;
 
+//13章【継承を理解しよう】
 /*
 継承の基本構文
 修飾子 class クラス名 extends スーパークラス名 {
@@ -8,7 +9,7 @@ package extend.human;
 →継承できるクラスは1つ/final修飾子は継承できない
  */
 public class Student extends Human {
-	// 13章【継承を理解しよう】
+	// サブクラスで追加してフィールド
 	private int score;
 
 	// コンストラクタ
@@ -20,6 +21,7 @@ public class Student extends Human {
 
 	// メソッド
 	public String getStudentProfile() {
+		// 親インスタンスのフィールドをsuper変数で参照
 		String profile = "年齢は" + super.age + "です。";
 		profile += "学生で、テストの点数は" + this.score + "点です。";
 		return profile;

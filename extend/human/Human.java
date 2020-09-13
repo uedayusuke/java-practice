@@ -2,7 +2,9 @@ package extend.human;
 
 public class Human {
 	// 13章【継承を理解しよう】
+	// privateは本クラスからのみアクセス可能
 	private String name;
+	// protectedはサブクラスからも可能
 	protected int age;
 
 	// コンストラクタ
