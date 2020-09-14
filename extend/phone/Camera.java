@@ -4,5 +4,5 @@ package extend.phone;
 public interface Camera {
 	// 13章【継承を理解しよう】
 
-	public void takePucture();
+	public void takePicture();
 }

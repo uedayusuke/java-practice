@@ -1,18 +1,17 @@
 package extend.phone;
 
-//13章【継承を理解しよう】
 public class MobilePhone implements Phone, Camera {
-	private String number;
+    private String number;
 
-	public MobilePhone(String number) {
-		this.number = number;
-	}
+    public MobilePhone(String number) {
+        this.number = number;
+    }
 
-	public void takePicture() {
-		System.out.println("写真を撮ります。");
-	}
+    public void takePicture() {
+        System.out.println("写真をとります。");
+    }
 
-	public void call(String number) {
-		System.out.println(this.number + "から" + number + "に電話をかけます。");
-	}
+    public void call(String number) {
+        System.out.println(this.number + " から " + number + " に電話をかけます。");
+    }
 }
