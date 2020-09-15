@@ -20,6 +20,7 @@ public interface Phone {
 	// メソッドの宣言(抽象)→"public abstract"が自動追加、明示する必要なし
     void call(String number);
 
+    // defaultメソッドを宣言
     default void powerOff() {
     	System.out.println("電源を切ります。");
     }
