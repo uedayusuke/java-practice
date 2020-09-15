@@ -21,6 +21,12 @@ public interface Phone {
     void call(String number);
 
     // defaultメソッドを宣言
+    /*
+     * defaultメソッドの基本構文
+     	default 戻り値の型 メソッド名() {
+     		// デフォルト処理
+     	}
+    */
     default void powerOff() {
     	System.out.println("電源を切ります。");
     }
