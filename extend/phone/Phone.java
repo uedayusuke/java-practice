@@ -15,8 +15,12 @@ package extend.phone;
 // インターフェースを宣言
 public interface Phone {
 	// フィールドの宣言(定数)→"public static final"は自動追加、明示する必要なし
-	int MAX_NUMBER_DIGITS = 11;
+	 final int MAX_NUMBER_DIGITS = 11;
 
 	// メソッドの宣言(抽象)→"public abstract"が自動追加、明示する必要なし
-    public void call(String number);
+    void call(String number);
+
+    default void powerOff() {
+    	System.out.println("電源を切ります。");
+    }
 }
