@@ -17,7 +17,14 @@ public class FlyingPhone implements Phone, Flying {
 	}
 
 	// flyメソッド
+	// Flyingインターフェースのメソッドをオーバーライド
 	public void fly() {
 		System.out.println(minutes +"分間飛びます。");
+	}
+
+	// callメソッド
+	// Phoneインターフェースのメソッドをオーバーライド
+	public void  call(String number) {
+		System.out.println(number + "に電話します。電話できるのは飛んでいる間だけです。");
 	}
 }
