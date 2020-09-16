@@ -31,6 +31,7 @@ public class FlyingPhone implements Phone, Flying {
 	// powerOffメソッド
 	// Phone,Flyingインターフェース共にdefaultメソッドがあるため、オーバーライド必須
 	public void powerOff() {
+		// "super"を用いて、Flyingインターフェースのdefaultを呼び出す
 		Flying.super.powerOff();
 	}
 
