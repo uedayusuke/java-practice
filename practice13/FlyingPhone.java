@@ -27,4 +27,11 @@ public class FlyingPhone implements Phone, Flying {
 	public void  call(String number) {
 		System.out.println(number + "に電話します。電話できるのは飛んでいる間だけです。");
 	}
+
+	// powerOffメソッド
+	// Phone,Flyingインターフェース共にdefaultメソッドがあるため、オーバーライド必須
+	public void powerOff() {
+		Flying.super.powerOff();
+	}
+
 }
