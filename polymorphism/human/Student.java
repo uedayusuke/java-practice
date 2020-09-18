@@ -1,6 +1,20 @@
 package polymorphism.human;
 
 //14章【ポリモーフィズムを理解しよう】
-public class Student {
 
+// Humanクラスを継承
+public class Student extends Human {
+	private int score;
+
+	public Student(String name, int age, int score) {
+		// スーパークラス(Humanクラス)を呼び出す
+		super(name, age);
+		this.score = score;
+	}
+
+	public String getProfile() {
+		String profile = "年齢は" + super.age + "です。";
+		profile += "学生で、テストの点数は" + this.score + "点です。";
+		return profile;
+	}
 }
