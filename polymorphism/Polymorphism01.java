@@ -3,6 +3,7 @@ package polymorphism;
 import polymorphism.human.Employee;
 import polymorphism.human.Human;
 import polymorphism.human.Student;
+
 // 14章【ポリモーフィズムを理解しよう】
 public class Polymorphism01 {
 	public static void main(String[] args) {
