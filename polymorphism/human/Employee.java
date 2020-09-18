@@ -13,6 +13,9 @@ public class Employee extends Human {
 	}
 
 	// オーバーライドし、Employeeクラスに変更
+	// @Override:コンパイル時にオーバーライドの条件を満たしていることを保証
+	// →一つでも満たしていないとコンパイルエラー
+	@Override
 	public String getProfile() {
 		String profile = "年齢は" + this.age + "です。";
 		profile += "サラリーマンで、部署は" + this.department + "です。";

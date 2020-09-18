@@ -13,6 +13,9 @@ public class Student extends Human {
 	}
 
 	// オーバーライドし、Studentクラスに変更
+	// @Override:コンパイル時にオーバーライドの条件を満たしていることを保証
+	// →一つでも満たしていないとコンパイルエラー
+	@Override
 	public String getProfile() {
 		String profile = "年齢は" + super.age + "です。";
 		profile += "学生で、テストの点数は" + this.score + "点です。";
