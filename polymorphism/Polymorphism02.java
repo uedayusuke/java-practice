@@ -25,7 +25,7 @@ public class Polymorphism02 {
 		polymorphism.printName(human);
 	}
 
-	// 下記は各種メソッド
+	// 下記各種メソッド
 	public void printName() {
 		System.out.println("中川です。");
 	}
