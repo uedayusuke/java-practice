@@ -12,12 +12,20 @@ public class Polymorphism02 {
 		// コンストラクタ生成
 		Polymorphism02 polymorphism = new Polymorphism02();
 
+		// printNameメソッド(引数なし)を呼び出し
 		polymorphism.printName();
+
+		// printNmaeメソッド(引数がString)を呼び出し
 		polymorphism.printName("松本");
+
+		// printNmaeメソッド(引数がString String)を呼び出し
 		polymorphism.printName("松本", "清水");
+
+		// printNameメソッド(引数がHumanクラス)を呼び出し
 		polymorphism.printName(human);
 	}
 
+	// 下記は各種メソッド
 	public void printName() {
 		System.out.println("中川です。");
 	}
