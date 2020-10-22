@@ -6,6 +6,6 @@ public class Example {
 		// クラスOuterをインスタンス化
 		Outer outer = new Outer();
 		// クラスOuterの内部クラスInnerをインスタンス化
-		Outer.Inner inner = outer.new Inner();
+		Outer.Inner inner = new Outer.Inner();
 	}
 }
